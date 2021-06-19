@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Navbar (){
     return(
-<nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"var(--sand)"}}>
+<nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"var(--sand)", fontFamily: "Gill Sans Extrabold"}}>
   <Link to="/">
-  <a class="navbar-brand" to="/">BSK</a>
+  <a class="navbar-brand" style={{color:"var(--persian-green)"}}  to="/">BSK</a>
   </Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

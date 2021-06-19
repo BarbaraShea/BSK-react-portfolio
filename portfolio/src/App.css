@@ -16,7 +16,7 @@
 .App-header {
   font-family:"Quicksand", sans-serif;
   background-color: var(--charcoal);
-  min-height: 10vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,3 +31,4 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
