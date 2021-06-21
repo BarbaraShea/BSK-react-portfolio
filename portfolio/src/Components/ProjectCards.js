@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Project = ({id, name, url, skills, imgurl}) => {
+    console.log(imgurl);
     return (
         <div data-aos="fade-up" className=" col-12 col-lg-4 project-card" >
             <div className="image-project">

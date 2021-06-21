@@ -5,7 +5,7 @@ import { contact, social } from '../portfolioData'
  function Project (){
      return(
         <>
-         <div className="parallax">
+         <div className="parallax calcHeight">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
                 <div className="git-head-div text-center mx-auto">
                         <h1 id="Contact" className="git-head">Contact Me</h1>

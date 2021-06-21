@@ -5,7 +5,7 @@ import { projects } from '../portfolioData';
 const Project = () => {
     return (
         <>
-            <div data-aos="zoom-in-up" data-aos-once="true" className="third">
+            <div data-aos="zoom-in-up" data-aos-once="true" className="third calcHeight">
                 <>
                     <div className="pp-head-line mx-auto text-center">
                         <h1 id="Projects" className="red-line pp-head">Projects</h1>
@@ -13,7 +13,7 @@ const Project = () => {
                 </>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <ProjectCards id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                <ProjectCards id={x.id} url={x.url} name={x.name} skills={x.skills} imgurl={x.imgurl}/>
                 )}
                 </div>
             </div>

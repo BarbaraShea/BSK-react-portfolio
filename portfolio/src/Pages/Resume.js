@@ -1,15 +1,15 @@
  import React from 'react';
-import { contact, social } from '../portfolioData'
+import { social } from '../portfolioData'
 
  
  function Resume (){
      return(
-         <>
-        <h3>Resume</h3>
-         <div>
+         <div className="calcHeight">
+        <h3 data-aos="zoom-in-up" >Resume</h3>
+         <div data-aos="zoom-in-up" >
         {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
         </div>
-        </>
+        </div>
      )
  };
 
