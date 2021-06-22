@@ -1,0 +1,59 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ :root {
+    --main-color: #ffa726;
+    --text-color: #2e5455;
+    --card-color: #fff3e0;
+    --light-color: #fff3e0;
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 45px;
+}
+.nav-wrapper {
+    background-color: var(--main-color);
+}
+
+.page-footer {
+    background-color: var(--main-color);
+}
+
+.brand-logo {
+    color: var(--text-color)
+}
+
+.card {
+    height: 300px;
+    background-color: var(--card-color);
+    margin: 20px;
+}
+
+.card-panel {
+    height: 250px;
+    background-color: var(--light-color);
+    margin: 30px;
+}
+
+body {
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.white-text {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color)
+}
+
